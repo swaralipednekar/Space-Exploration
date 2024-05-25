@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang-en>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>
+        Explore planets in the Universe!
+    </title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav class="navbar">
+            <h1 class="logo">SpaceEx</h1>
+            <ul class="nav-links">
+                <li class="active"><a href="#" class="Home">Home</a></li>
+                <li><a href="#" class="Tours">Tours</a></li>
+                <li><a href="#" class="Explore">Explore</a></li>
+                <li><a href="#" class="About">About</a></li>
+                <li class="ctn"><a href="#" class="Contacts">Contacts</a></li>
+            </ul>
+            <img src="./Imgs/menu-btn.png" alt=""class="menu-btn">
+        </nav>
+        <header>
+            <div class="header-content">
+                <h2>PLANETORIUM</h2>
+                <div class="line"></div>
+                <h1>Discover sun, sunshine, planets and galaxies!</h1>
+                <a href="https://www.nationalgeographic.com/science/article/earth" target="_blank"class="ctn">Learn More</a>
+            </div>
+        </header>
+        <!--events-->
+        <section class="events">
+            <div class="title">
+                <h1>UPCOMING EVENTS</h1>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="Imgs/solareclipse.webp" alt="">
+                    <h4>Solar Eclipse</h4>
+                    <p> Join us for an unforgettable experience as we witness a rare celestial event - a mesmerizing solar eclipse! Bring your friends and family to your nearby location on [Date] at [Time] to marvel at the wonder of the universe as the moon passes in front of the sun. Don't miss this chance to witness this breathtaking phenomenon together! See you there!</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+                <div class="col">
+                    <img src="Imgs/hubbletele.jpg" alt="">
+                    <h4>Discoveries of Hubble Telescopes</h4>
+                    <p>Explore the wonders of the cosmos with us as we delve into the remarkable discoveries of the Hubble Space Telescope! Join our enlightening presentation at [Location] on [Date] at [Time] to witness breathtaking images and learn about the groundbreaking scientific revelations made possible by this iconic telescope. From unraveling the mysteries of distant galaxies to peering into the birth of stars, the Hubble Telescope has revolutionized our understanding of the universe.  </p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+            </div>
+        </section>
+        <section class="explore">
+            <div class="explore-content">
+                <h1>Walk in the Horizon</h1>
+                <div class="line"></div>
+                <p>
+                    Embark on an unforgettable journey beyond Earth with our "Walking in the Horizon" space expedition.
+                    Experience zero gravity, breathtaking views, and the wonders of space like never before. Don't miss this opportunity to be part of a once-in-a-lifetime adventure!
+                </p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </section>
+
+        <section class="tours">
+            <div class="row">
+                <div class="col content-col">
+                    <h1>
+                        Upcoming Tours & Destinations
+                    </h1>
+                    <div class="line"></div>
+                    <p>Get ready to defy gravity and explore the cosmos like never before with our thrilling space tours! Experience the breathtaking beauty of Earth from above, float in zero gravity, gaze at the stars, and be a part of history-making moments.</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+                <div class="col image-col">
+                    <div class="image-gallery">
+                        <img src="Imgs/21.jpeg" alt="">
+                        <img src="Imgs/22.jpg" alt="">
+                        <img src="Imgs/23.jpeg" alt="">
+                        <img src="Imgs/24.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <p>123, Fifth Avenue, New Link road, Hyderabad-029382, India. | Phone: 80-2345-1234 | Email: contactspacex@gmail.com |</p>
+            <p>Copyright @ 2023 SpaceEX</p>
+        </section>
+       
+
+        <script>
+            const menuBtn = document.querySelector('.menu-btn')
+            const navlinks = document.querySelector('.nav-links')
+
+            menuBtn.addEventListener('click',()=>{
+                navlinks.classList.toggle('mobile-menu')
+            })
+        </script>
+    </body>
+</html>
